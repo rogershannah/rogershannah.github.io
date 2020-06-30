@@ -1,0 +1,99 @@
+.jumbotron {
+  background-color: #FBFBFB !important;
+  text-decoration-color: #2A3E53;
+  margin: 10px 0px;
+  padding: 50px 10px 25px !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron .abt {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.btn-primary {
+  background-color: #748EA3;
+  border-color: #748EA3;
+  color: #F3F5F7; }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  color: #ffffff;
+  background-color: #2A3E53; }
+
+.collapse > .card {
+  border-color: #a5a9f2; }
+
+.navbar-default {
+  background-color: #E7ECF0;
+  background-image: none;
+  background-repeat: no-repeat;
+  text-decoration-color: #2A3E53; 
+  border-radius: 5px; }
+
+  .navbar-brand {
+    padding-left: 10px;
+  }
+
+.card-header {
+  background-color: #e8e9fc !important; }
+
+footer {
+  color: #9DB3C1;
+  background-color: #2A3E53; }
+
+footer a {
+  color: #E7ECF0;
+}
+
+footer a:hover {
+  color: #748EA3;
+}
+
+.alert {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; }
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #A3B7C2; }
+
+[tabindex="-1"]:focus {
+  outline: 0 !important; }
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+  .container {
+    height: 100%;
+  }
+  
+  .min-100 {
+      min-height: 100%;
+  }

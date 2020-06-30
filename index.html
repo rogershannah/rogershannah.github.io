@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hannah Rogers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+  <link rel="shortcut icon" href="./assets/me_fav.ico" type="image/x-icon">
+  <link rel="icon" href="./assets/me_fav.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+  <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-default navbar-light" id="top">
+                <img src="./assets/me.png" width="45" height="45" alt="">
+                <a class="navbar-brand" href="#top">Hannah Rogers</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#funFacts">Fun Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="jumbotron pb-0 min-100" id="#about">
+                <h4 class="abt center">ABOUT ME</h4>
+                <p class="lead">I'm a fouth year student at Northeastern University's Khoury College of Computer Sciences, pursuing a bachelors in Computer Science and Media Arts. 
+                    </p>
+                    <p class="lead">I've always enjoyed problem solving and looking at the world from a new perspective. My love for art has lead me to a major where I can combine it with my enjoyment of math and science, and I've found my creative and determined mindset has helped me to thrive in the computer science industry. The feeling when my code comes together and the ability to help others with my designs drives me to keep improving. I'm always looking for new ways to learn and am excited at new opportunities.
+                    </p>
+                
+                    <p class="lead">I am interested in full-stack software engineering, and have experience working as a software engineer at Poloniex and PowerAdvocate.</p>
+                <p class="lead center">
+                    <a class="btn btn-primary btn-lg" href="./assets/HannahRogers_Resume.pdf" target="_blank" role="button">My Resume</a>
+                    <a class="btn btn-primary btn-lg" href="https://github.com/rogershannah" target="_blank" role="button">My Github</a>
+                   <!-- <a class="btn btn-primary btn-lg ml-2" role="button" id="btnShow">My Portfolio</a>-->
+                </p>
+            </div>
+        </div>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>        
+        <script>
+            $("#btnShow").click(function(){
+                $(".alert").hide().show('medium');
+            });
+        </script>
+        <script>
+                $(document).ready(function(){
+                  $('[data-toggle="tooltip"]').tooltip(); 
+                });
+        </script>
+    </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+<footer class="page-footer font-small pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3" id="contact">
+                <h5 class="text-uppercase">Contact</h5>
+                <p>rogershannah99@gmail.com</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-3">
+                <h5 class="text-uppercase">Links</h5>
+                <ul class="nav nav-pills">
+                    <li class="nav-item ml-auto"><a href="https://www.linkedin.com/in/hannahrrogers/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="nav-item ml-auto"><a href="https://www.facebook.com/profile.php?id=100013121889544" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="nav-item ml-auto"><a href="https://www.instagram.com/hannahdoesartstuff/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
