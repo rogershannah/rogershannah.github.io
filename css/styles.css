@@ -17,6 +17,9 @@ img {
   bottom: 0;
 }
 
+.inner-card {
+  padding-bottom: 10px;
+}
 
 .abt-btns {
   padding-top: 15px;
