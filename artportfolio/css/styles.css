@@ -4203,7 +4203,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #e7ecf0;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
@@ -7427,4 +7427,13 @@ form .row:first-child .floating-label-form-group {
 
   .email {
     color: #e7ecf0;
+  }
+
+  .art-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .art-container img{
+    padding: 10px;
   }
