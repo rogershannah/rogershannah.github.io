@@ -7437,3 +7437,8 @@ form .row:first-child .floating-label-form-group {
   .art-container img{
     padding: 10px;
   }
+
+  .vid {
+    width: 66%;
+    margin-bottom: 24px;
+}
