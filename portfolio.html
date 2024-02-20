@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hannah Rogers</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="./assets/me_fav.ico" type="image/x-icon" />
+  <link rel="icon" href="./assets/me_fav.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-default navbar-light" id="top">
+    <img src="./assets/me.png" width="45" height="45" alt="" />
+    <a class="navbar-brand" href="#top">Hannah Rogers</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#professional">Professional Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="page">
+      <h1 class="page-header"><b>PORTFOLIO</b></h1>
+      <p class="center">WIP</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!--- section 1-->
+    <div class="page">
+      <h1 class="section-header">Graphics</h1>
+      <div class="jumbotron pb-0 min-100" id="about">
+        <h4 class="center">Interactive Bee Scene</h4>
+        <div class="flex-container">
+          <div class="flex-item-summary"  style="width:25%;">
+            An OpenGL C++ scene that displays several bees in a honeycomb scene. Implemented naviagtion and uses a
+              frame buffer to alter the scene with by applying gray-scale, blur, sharpen, edge detection, or
+              inversion. Also applies blending to the bees' wings for transparency.
+              The textures of the bee and normal map of the wall are custom made. <a
+                href="https://www.youtube.com/watch?v=xKPLAo8jeNwr">Video explanation</a>.
+          </div>
+          <div class="flex-item-img">
+            <div class="img-row" style="padding-bottom: 15px;">
+              <img src="./assets/normal.jpg" class="img-responsive margin" style="width:90%; padding: 0px 5px"
+                alt="normal" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- section 2-->>
+    <div class="page">
+      <h1 class="section-header">Tools</h1>
+      <div class="jumbotron pb-0 min-100">
+        <h4 class="center">Maya Tools - Connect Via Curve</h4>
+        <div class="flex-container">
+          <div class="flex-item-summary" style="width:33%;">Two tools developed for Maya. The concepts were pitched by artists in Northeastern's animation capstone
+            course. The first tool allows users to create a curve, a plane, or a poly object based off of the
+            position of a selected group of objects.
+            The second allows the user to select objects and align them to the center of a selected plane See the
+            code <a href="https://github.com/rogershannah/ConnectViaCurveTool">here</a>.
+            <br>
+            <img src="./assets/connectMaya.png" class="img-responsive margin" style="width:90%"
+            alt="snap to surface gui" /></div>
+              <div class="flex-item-img">
+                <img src="./assets/connectMaya.gif" class="img-responsive margin" style="width:80%"
+                alt="conncect via curve demo" />
+              </div>
+          </div>
+        </div>
+        <div class="jumbotron pb-0 min-100" >
+          <h4 class="center">Maya Tools - Snap To Plane</h4>
+          <div class="flex-container">
+            <div class="flex-item-summary" style="width:33%;">Two tools developed for Maya. The concepts were pitched by artists in Northeastern's animation capstone
+              course. The first tool allows users to create a curve, a plane, or a poly object based off of the
+              position of a selected group of objects.
+              The second allows the user to select objects and align them to the center of a selected plane See the
+              code <a href="https://github.com/rogershannah/SnapToPlaneTool">here</a>.
+              <br>
+              <img src="./assets/snapMaya.png" class="img-responsive margin" style="width:90%"
+              alt="snap to surface gui" />
+            </div>
+                <div class="flex-item-img">
+                  <img src="./assets/snapMaya.gif" class="img-responsive margin" style="width:80%;"
+                  alt="snap to surface demo" />
+                </div>
+            </div>
+          </div>
+    </div><!--- section 3-->
+    <div class="page">
+      <h1 class="section-header">Game Play</h1>       
+      <div class="jumbotron pb-0 min-100" id="about">
+        <h4 class="center">Virtual Reality Volt Hockey</h4>
+        <div class="flex-container">
+          <div class="flex-item-summary" style="width:33%;">
+              A virtual reality training game for volt hockey - an adaptive sport similar to ice hockey, but played 3 on 3 in powered wheelchairs. 
+              This project was developed in a team using Unity and C# scripting. A literature review and survey was conducted to identify needs and wants.
+               A pilot study and representative study was used to evaluate and improve the experience. 
+              The resulting application was a serious game that reviewed the rules of volt hockey and takes the player through three training stages - 
+              slapshot practice, a static obstacle course, and a dynamic obstacle course.
+          </div>
+          <div class="flex-item-img">
+              <img src="./assets/volthockey_01.png" class="img-responsive margin"  style="width:80%;"
+                alt="volt hockey scene" />
+          </div>
+          <br>
+        </div>
+        </div>
+        <div class="jumbotron pb-0 min-100" id="about">
+          <h4 class="center">Mellifera</h4>
+          <div class="flex-container">
+            <div class="flex-item-summary" style="width:33%;">
+              A bee simulation game. Fly around the game world, collecting pollen and defeating enemies through unique 3
+              levels, ultimately defending the hive in the final level! See the code <a
+                href="https://github.com/MelliferaDev/mellifera">here</a>, watch the trailer <a
+                href="https://www.youtube.com/watch?v=GwR687DcktY&feature=youtu.be">here</a>, and play the game <a
+                href="https://unbun.itch.io/mellifera-gold-release">here</a>!
+                <br>
+                <br>
+              My contributions include: scripting enemy and player behaviors, scripting pesticide behavior and particle effects, creating all animations, designing and creating cut scenes, collaborating with team on design decisions and implementation.
+            </div>
+            <div class="flex-item-img">
+                <img src="./assets/mellifera.gif" class="img-responsive margin"  style="width:80%;"
+                  alt="mellifera demo" />
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script>
+    $("#btnShow").click(function () {
+      $(".alert")
+        .hide()
+        .show("medium");
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+</body>
+<footer class="page-footer font-small pt-4">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3" id="contact">
+        <h5 class="text-uppercase">Contact</h5>
+        <p class="email">hrogers118@gmail.com</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3" />
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="nav nav-pills">
+          <li class="nav-item ml-auto">
+            <a href="https://www.linkedin.com/in/hannahrrogers/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a href="https://github.com/rogershannah" target="_blank"><i class="fa fa-github"></i></a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a href="https://www.facebook.com/profile.php?id=100013121889544" target="_blank"><i
+                class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a href="https://www.instagram.com/hannahdoesartstuff/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>

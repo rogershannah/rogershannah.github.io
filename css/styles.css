@@ -70,6 +70,14 @@ img {
   background-color: #e7ecf0;
 }
 
+.page-header {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .section-header {
   font-size: 40px;
   font-weight: 300;
@@ -77,6 +85,7 @@ img {
   text-align: center;
   margin-bottom: 10px;
 }
+
 
 footer {
   color: #9db3c1;
@@ -154,6 +163,26 @@ p {
 .container {
   margin-top: 72px;
   height: 100%;
+}
+
+.flex-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-item-summary {
+  flex: none;
+  margin: 15px;
+  width: 50%;
+}
+
+.flex-item-img {
+  flex: none;
+  margin: 15px;
+  width: 75%;
 }
 
 .min-100 {
