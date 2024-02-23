@@ -54,41 +54,80 @@
       <p class="center">WIP</p>
     </div>
   </div>
-
+  <!--- section 1-->
   <div class="container" id="graphics">
-    <!--- section 1-->
     <div class="page">
       <h1 class="section-header">Graphics</h1>
-      <div class="jumbotron   min-100">
-        <h4 class="center">Interactive Bee Scene</h4>
-        <div class="flex-container">
-          <div class="flex-item-summary"  >
-            An OpenGL C++ scene that demonstrates: 
-            <ul>
-              <li>Diffuse, specular, and emissive maps</li>
-              <li>Ambient, diffuse, and specular lighting</li>
-              <li>Camera system and navigation</li>
-              <li>Wireframe and fill drawing</li>
-              <li>User navigation</li>
-            </ul>
+      <div id="project1Controls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="jumbotron   min-100">
+              <h4 class="center">Containers Quad Drawing Scene</h4>
+              <div class="flex-container ">
+                <div class="flex-item-summary">
+                  An OpenGL C++ scene that demonstrates:
+                  <ul>
+                    <li>Diffuse, specular, and emissive maps</li>
+                    <li>Drawing based on given vertices</li>
+                    <li>Ambient, diffuse, and specular lighting</li>
+                    <li>Camera system and navigation</li>
+                    <li>Wireframe and fill drawing</li>
+                    <li>User navigation</li>
+                  </ul>
+                </div>
+                <div class="flex-item-img">
+                  <video class="center" width="400" height="400" controls>
+                    <source src="./assets//videos/demo01.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="flex-item-img">
-            <video class="center" width="400" height="400" controls>
-              <source src="./assets//videos/graphics_lighting_demo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video>
+          <div class="carousel-item ">
+            <div class="jumbotron   min-100">
+              <h4 class="center">Planet Model Scene</h4>
+              <div class="flex-container ">
+                <div class="flex-item-summary">
+                  An OpenGL C++ scene that demonstrates:
+                <ul>
+                  <li>Model loading using Assimp</li>
+                  <li>Handling for multiple textures</li>
+                  <li>Camera system</li>
+                  <li>Wireframe and fill drawing</li>
+                  <li>User navigation</li>
+                </ul>
+                </div>
+                <div class="flex-item-img">
+                  <video class="center" width="400" height="400" controls>
+                    <source src="./assets//videos/planet.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
+        
+        <a class="carousel-control-prev" href="#project1Controls" role="button" data-slide="prev" style="width:auto">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#project1Controls" role="button" data-slide="next" style="width:auto">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
       <div class="jumbotron   min-100">
         <h4 class="center">Interactive Bee Scene</h4>
         <div class="flex-container">
-          <div class="flex-item-summary"  style="width:25%;">
+          <div class="flex-item-summary" style="width:25%;">
             An OpenGL C++ scene that displays several bees in a honeycomb scene. Implemented navigation and uses a
-              frame buffer to alter the scene with by applying gray-scale, blur, sharpen, edge detection, or
-              inversion. Also applies blending to the bees' wings for transparency.
-              The textures of the bee and normal map of the wall are custom made. <a
-                href="https://www.youtube.com/watch?v=xKPLAo8jeNwr">Video explanation</a>.
+            frame buffer to alter the scene with by applying gray-scale, blur, sharpen, edge detection, or
+            inversion. Also applies blending to the bees' wings for transparency.
+            The textures of the bee and normal map of the wall are custom made. <a
+              href="https://www.youtube.com/watch?v=xKPLAo8jeNwr">Video explanation</a>.
           </div>
           <div class="flex-item-img">
             <div class="img-row" style="padding-bottom: 15px;">
@@ -99,129 +138,152 @@
         </div>
       </div>
     </div>
-    <br>
-    <!--- section 2-->
-    <div class="page" id="tools">
-      <h1 class="section-header" >Tools</h1>
+  </div>
+  <br>
+  <!--- section 2-->
+  <div class="container" id="tools">
+    <div class="page">
+      <h1 class="section-header">Tools</h1>
       <div class="jumbotron   min-100">
         <h4 class="center">Asteroids - Game Maker GUI</h4>
         <div class="flex-container">
           <div class="flex-item-summary" style="width:25%;">
             A custom GUI built using PySimpleGUI to allow users to customize their asteroids game.<br>
-            See the documentation for the game <a href="https://rogershannah.github.io/thelilteamthatcould-ish/">here</a>.</div>
-              <div class="flex-item-img carousel" id="carouselExampleControls" data-ride="carousel" >
-                <div class="carousel-inner center">
-                  <div class="carousel-item active">                    
-                    <img src="./assets/asteroid_builder/gui_tab1.png" class="img-responsive margin"  style="width:90%;"
-                      alt="gui tab player" />
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/asteroid_builder/gui_tab2.png" class="img-responsive margin"  style="width:90%;"
-                     alt="gui tab enemies" />
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/asteroid_builder/gui_tab3.png" class="img-responsive margin"  style="width:90%;"
-                    alt="gui tab projectile" />
-                </div>
-                <div class="carousel-item">
-                  <img src="./assets/asteroid_builder/gui_tab4.png" class="img-responsive margin"  style="width:90%;"
+            See the documentation for the game <a
+              href="https://rogershannah.github.io/thelilteamthatcould-ish/">here</a>.</div>
+          <div class="flex-item-img carousel" id="carouselExampleControls" data-ride="carousel">
+            <div class="carousel-inner center">
+              <div class="carousel-item active">
+                <img src="./assets/asteroid_builder/gui_tab1.png" class="img-responsive margin" style="width:90%;"
+                  alt="gui tab player" />
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/asteroid_builder/gui_tab2.png" class="img-responsive margin" style="width:90%;"
+                  alt="gui tab enemies" />
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/asteroid_builder/gui_tab3.png" class="img-responsive margin" style="width:90%;"
+                  alt="gui tab projectile" />
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/asteroid_builder/gui_tab4.png" class="img-responsive margin" style="width:90%;"
                   alt="gui tab other" />
               </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-                </div>
-              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
+      </div>
+
       <div class="jumbotron   min-100">
         <h4 class="center">Maya Tools - Connect Via Curve</h4>
         <div class="flex-container">
-          <div class="flex-item-summary" style="width:33%;">A tool developed for Maya. The concept was pitched by artists in Northeastern's animation capstone
-            course. During development, students from the class also tested and provided feedback, which was taken and incorporated in order to create a tool that best suits their needs. This tool allows users to create a curve, a plane, or a poly object based off of the
+          <div class="flex-item-summary" style="width:33%;">A tool developed for Maya. The concept was pitched by
+            artists in Northeastern's animation capstone
+            course. During development, students from the class also tested and provided feedback, which was taken and
+            incorporated in order to create a tool that best suits their needs. This tool allows users to create a
+            curve, a plane, or a poly object based off of the
             position of a selected group of objects. See the
             code <a href="https://github.com/rogershannah/ConnectViaCurveTool">here</a>.
             <br>
             <img src="./assets/connectMaya.png" class="img-responsive margin" style="width:90%"
-            alt="snap to surface gui" /></div>
-              <div class="flex-item-img">
-                <video class="center" width="640" height="420" controls>
-                  <source src="./assets//videos/connect.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video>
-              </div>
+              alt="snap to surface gui" />
+          </div>
+          <div class="flex-item-img">
+            <video class="center" width="640" height="420" controls>
+              <source src="./assets//videos/connect.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
-        <div class="jumbotron   min-100" >
-          <h4 class="center">Maya Tools - Snap To Plane</h4>
-          <div class="flex-container">
-            <div class="flex-item-summary" style="width:33%;">A tool developed for Maya. The concept was pitched by artists in Northeastern's animation capstone
-              course. During development, students from the class also tested and provided feedback, which was taken and incorporated in order to create a tool that best suits their needs. This tool allows the user to select objects and align them to the center of a selected plane. See the
-              code <a href="https://github.com/rogershannah/SnapToPlaneTool">here</a>.
-              <br>
-              <img src="./assets/snapMaya.png" class="img-responsive margin" style="width:90%"
+      </div>
+      <div class="jumbotron   min-100">
+        <h4 class="center">Maya Tools - Snap To Plane</h4>
+        <div class="flex-container">
+          <div class="flex-item-summary" style="width:33%;">A tool developed for Maya. The concept was pitched by
+            artists in Northeastern's animation capstone
+            course. During development, students from the class also tested and provided feedback, which was taken and
+            incorporated in order to create a tool that best suits their needs. This tool allows the user to select
+            objects and align them to the center of a selected plane. See the
+            code <a href="https://github.com/rogershannah/SnapToPlaneTool">here</a>.
+            <br>
+            <img src="./assets/snapMaya.png" class="img-responsive margin" style="width:90%"
               alt="snap to surface gui" />
-            </div>
-                <div class="flex-item-img">
-                  <video class="center" width="640" height="420" controls>
-                    <source src="./assets//videos/connect.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                  </video>
-                </div>
-            </div>
           </div>
+          <div class="flex-item-img">
+            <video class="center" width="640" height="420" controls>
+              <source src="./assets//videos/connect.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
     </div>
-    <br>
-    <!--- section 3-->
-    <div class="page" id="gameplay">
-      <h1 class="section-header" >Gameplay</h1>       
-      <div class="jumbotron   min-100" id="about">
+  </div>
+  <br>
+  <!--- section 3-->
+  <div class="container" id="gameplay">
+    <div class="page">
+      <h1 class="section-header">Gameplay</h1>
+      <div class="jumbotron   min-100">
         <h4 class="center">Virtual Reality Volt Hockey</h4>
         <div class="flex-container">
           <div class="flex-item-summary" style="width:33%;">
-              A virtual reality training game for volt hockey - an adaptive sport similar to ice hockey, but played 3 on 3 in powered wheelchairs. 
-              This project was developed in a team using Unity and C# scripting. A literature review and survey was conducted to identify needs and wants.
-               A pilot study and representative study was used to evaluate and improve the experience. 
-              The resulting application was a serious game that reviewed the rules of volt hockey and takes the player through three training stages - 
-              slap shot practice, a static obstacle course, and a dynamic obstacle course.
+            A virtual reality training game for volt hockey - an adaptive sport similar to ice hockey, but played 3 on 3
+            in powered wheelchairs.
+            This project was developed in a team using Unity and C# scripting. A literature review and survey was
+            conducted to identify needs and wants.
+            A pilot study and representative study was used to evaluate and improve the experience.
+            The resulting application was a serious game that reviewed the rules of volt hockey and takes the player
+            through three training stages -
+            slap shot practice, a static obstacle course, and a dynamic obstacle course.
           </div>
           <div class="flex-item-img">
-              <img src="./assets/volthockey_01.png" class="img-responsive margin"  style="width:80%;"
-                alt="volt hockey scene" />
+            <img src="./assets/volthockey_01.png" class="img-responsive margin" style="width:80%;"
+              alt="volt hockey scene" />
           </div>
           <br>
         </div>
-        </div>
-        <div class="jumbotron   min-100" id="about">
-          <h4 class="center">Mellifera</h4>
-          <div class="flex-container">
-            <div class="flex-item-summary" style="width:33%;">
-              A bee simulation game. Fly around the game world, collecting pollen and defeating enemies through unique 3
-              levels, ultimately defending the hive in the final level! See the code <a
-                href="https://github.com/MelliferaDev/mellifera">here</a>, watch the trailer <a
-                href="https://www.youtube.com/watch?v=GwR687DcktY&feature=youtu.be">here</a>, and play the game <a
-                href="https://unbun.itch.io/mellifera-gold-release">here</a>!
-                <br>
-                <br>
-              My contributions include: scripting enemy and player behaviors, scripting pesticide behavior and particle effects, creating all animations, designing and creating cut scenes, collaborating with team on design decisions and implementation.
-            </div>
-            <div class="flex-item-img">
-                <img src="./assets/mellifera.gif" class="img-responsive margin"  style="width:80%;"
-                  alt="mellifera demo" />
-            </div>
-          </div>
       </div>
+      <div class="jumbotron   min-100">
+        <h4 class="center">Mellifera</h4>
+        <div class="flex-container">
+          <div class="flex-item-summary" style="width:33%;">
+            A bee simulation game. Fly around the game world, collecting pollen and defeating enemies through unique 3
+            levels, ultimately defending the hive in the final level! See the code <a
+              href="https://github.com/MelliferaDev/mellifera">here</a>, watch the trailer <a
+              href="https://www.youtube.com/watch?v=GwR687DcktY&feature=youtu.be">here</a>, and play the game <a
+              href="https://unbun.itch.io/mellifera-gold-release">here</a>!
+            <br>
+            <br>
+            My contributions include: scripting enemy and player behaviors, scripting pesticide behavior and particle
+            effects, creating all animations, designing and creating cut scenes, collaborating with team on design
+            decisions and implementation.
+          </div>
+          <div class="flex-item-img">
+            <img src="./assets/mellifera.gif" class="img-responsive margin" style="width:80%;" alt="mellifera demo" />
+          </div>
+        </div>
       </div>
     </div>
-
-
   </div>
+  </div>
+
+
+
+
+
+
+
+
+
 
   <script src="./js/bootstrap.min.js"></script>
   <script>
